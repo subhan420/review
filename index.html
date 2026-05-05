@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Reviews</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="reviews-wrapper">
+        <h2 class="reviews-title">Our Reviews</h2>
+        <div class="reviews-underline"></div>
+
+        <div class="card">
+            <div class="avatar-wrap">
+                <div class="avatar-ring">
+                    <div class="avatar-placeholder">
+                        <img src="assets/ID-1-image.jpg" alt="" id="profile-pic">
+                    </div>
+                </div>
+                <div class="quote-badge">
+                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3 7h3v4H3V7zm7 0h3v4h-3V7zM3 7c0-2.2 1.8-4 4-4V5c-1.1 0-2 .9-2 2H3zm7 0c0-2.2 1.8-4 4-4V5c-1.1 0-2 .9-2 2h-2z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="reviewer-name">Arjun Mehta</div>
+            <div class="reviewer-role">Software Engineer</div>
+
+            <p class="review-text">
+                This website is very easy to use and has a clean design. I found everything I was looking for without
+                any issues. Highly recommended!
+            </p>
+
+            <div class="nav-arrows">
+                <button class="arrow-btn" aria-label="Previous" id="prev-btn">
+                    <svg viewBox="0 0 12 12">
+                        <polyline points="8,2 4,6 8,10" />
+                    </svg>
+                </button>
+                <button class="arrow-btn" aria-label="Next" id="next-btn">
+                    <svg viewBox="0 0 12 12">
+                        <polyline points="4,2 8,6 4,10" />
+                    </svg>
+                </button>
+            </div>
+
+            <button class="surprise-btn">Surprise Me</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
