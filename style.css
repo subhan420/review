@@ -194,13 +194,13 @@
       }
 
       .avatar-wrap {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
       }
 
       .avatar-ring {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         box-shadow: 6px -4px 0px 0px #4a9fd4;
       }
 
